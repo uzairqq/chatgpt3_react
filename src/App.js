@@ -1,16 +1,20 @@
 import React from "react";
 
-import Article from "./components/article";
-
-import Brand from "./components/Brand ";
-import Navbar from "./components/Navbar";
-import Cta from "./components/Cta";
-import Feature from "./components/Feature";
+import Article from "./components/article/Article";
+import Brand from "./components/brand/Brand";
+import Navbar from "./components/navbar/Navbar.jsx";
+import Cta from "./components/cta/Cta.jsx";
+import Feature from "./components/feature/Feature.jsx";
 
 const App = () => {
   return (
     <div>
       <h1>GPT-3</h1>
+      <Article />
+      <Brand />
+      <Navbar />
+      <Cta />
+      <Feature />
     </div>
   );
 };
